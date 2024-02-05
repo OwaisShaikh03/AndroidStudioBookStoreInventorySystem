@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnViewBooks" type="id" />
+    <item name="btnAddBook" type="id" />
+    <item name="editTextPrice" type="id" />
+    <item name="editTextAuthor" type="id" />
+    <item name="editTextBookName" type="id" />
+    <item name="textViewBooks" type="id" />
+    <item name="btnUpdateBook" type="id" />
+    <item name="btnDeleteBook" type="id" />
+    <item name="btnSaveBook" type="id" />
+    <item name="btnBackToMain" type="id" />
+    <item name="spinnerBooks" type="id" />
+    <item name="editTextNewPrice" type="id" />
+    <item name="editTextNewAuthor" type="id" />
+    <item name="editTextNewTitle" type="id" />
+    <item name="btnPickPhoto" type="id" />
+    <item name="editTextPhotoPath" type="id" />
+    <item name="editTextPdfPath" type="id" />
+    <item name="btnPickPdf" type="id" />
+    <item name="textViewTitle" type="id" />
+    <item name="textViewAuthor" type="id" />
+    <item name="textViewPrice" type="id" />
+    <item name="btnOpenPdf" type="id" />
+    <item name="textViewPdfPathDetails" type="id" />
+    <item name="textViewTitleDetails" type="id" />
+    <item name="imageViewBook" type="id" />
+    <item name="imageViewBookGrid" type="id" />
+    <item name="textViewTitleGrid" type="id" />
+    <item name="textViewAuthorGrid" type="id" />
+    <item name="textViewPriceGrid" type="id" />
+    <item name="imageViewBookDetails" type="id" />
+    <item name="gridViewBooks" type="id" />
+    <item name="btnPickImage" type="id" />
+</resources>

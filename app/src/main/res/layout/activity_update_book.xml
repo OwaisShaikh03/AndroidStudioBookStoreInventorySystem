@@ -1,0 +1,78 @@
+<!-- activity_update_book.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateBookActivity">
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myBlue"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Store Inventory"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/spinnerBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/editTextNewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerBooks"
+        android:layout_marginTop="8dp"
+        android:hint="New Title"/>
+
+    <EditText
+        android:id="@+id/editTextNewAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNewTitle"
+        android:layout_marginTop="8dp"
+        android:hint="New Author"/>
+
+    <EditText
+        android:id="@+id/editTextNewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNewAuthor"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:hint="New Price"/>
+
+    <EditText
+        android:id="@+id/editTextNewQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNewPrice"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:hint="New Quantity"/>
+
+    <Button
+        android:id="@+id/btnUpdateBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNewQuantity"
+        android:layout_marginTop="16dp"
+        android:text="Update Book"/>
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdateBook"
+        android:layout_marginTop="16dp"
+        android:text="Back to Main"/>
+</RelativeLayout>

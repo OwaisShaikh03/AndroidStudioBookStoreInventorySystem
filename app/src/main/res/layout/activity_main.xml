@@ -1,0 +1,57 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Top bar with the title -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myBlue"
+        android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Store Inventory"
+        android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+</RelativeLayout>
+
+    <!-- Buttons for CRUD operations -->
+<Button
+android:id="@+id/btnAddBook"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Add Book"
+android:layout_below="@id/topBar"
+android:layout_marginTop="16dp"/>
+
+<Button
+android:id="@+id/btnViewBooks"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="View Books"
+android:layout_below="@id/btnAddBook"
+android:layout_marginTop="16dp"/>
+
+<Button
+android:id="@+id/btnUpdateBook"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Update Book"
+android:layout_below="@id/btnViewBooks"
+android:layout_marginTop="16dp"/>
+
+<Button
+android:id="@+id/btnDeleteBook"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Delete Book"
+android:layout_below="@id/btnUpdateBook"
+android:layout_marginTop="16dp"/>
+</RelativeLayout>
